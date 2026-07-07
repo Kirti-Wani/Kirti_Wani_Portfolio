@@ -878,4 +878,36 @@ section.active{
         font-size: 3.5rem;
     }
 }
+/* About Me - Same Style as Contact Section */
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
 
+.about-detail {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.about-detail i {
+    display: inline-flex;
+    background: var(--second-bg-color);
+    color: var(--main-color);
+    font-size: 2.5rem;
+    padding: 1rem;
+    border-radius: .6rem;
+    margin-right: 1.5rem;
+}
+
+.about-detail .detail p:first-child {
+    color: var(--main-color);
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.about-detail .detail p:last-child {
+    color: var(--text-color);
+    font-size: 1.4rem;
+}
